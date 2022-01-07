@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <>
       <div id="events-section">
-
          <EventsLayout/>
-
       </div>
     </>
    

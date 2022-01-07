@@ -1,9 +1,7 @@
 module.exports = {
   content: [
-
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-
   ],
   theme: {
     extend: {
@@ -14,7 +12,6 @@ module.exports = {
         'borderColor':'rgba(115, 123, 125, 0.3)',
         'paragraphColor':'#737B7D',
       },
-
     },
   },
   plugins: [],
