@@ -39,10 +39,10 @@ export default function Navbar({toggleSidebar}){
                                 <a href='#team-secion'>Teams</a>
                             </div>
                             <div className='flex items-center'>
-                                <a href='#Our-Sponsors'>Sponsors</a>
+                                <a href='#sponsors-section'>Sponsors</a>
                             </div>
                             <div className='flex items-center'>
-                                <a href='#faq'>FAQ</a>
+                                <a href='#faq-section'>FAQ</a>
                             </div>
                             
                         </div>
