@@ -1,15 +1,35 @@
-import Head from 'next/head'
-import Image from 'next/image'
+
 import EventsLayout from '../components/events/EventsLayout'
 import Sponsors from '../components/Sponsors'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
+import Ourteam from '../components/ourteam'
+import Navbar from '../components/Navbar'
+import { useState } from 'react'
+
 
 export default function Home() {
+  const [toggle, setToggle] = useState(false);
+  const toggleSidebar = () => {
+    setToggle(!toggle);
+
+  }
+
   return (
     <>
+
+      <Navbar toggleSidebar={toggleSidebar} />
+
+      <main className={toggle ? 'h-[80vh] overflow-hidden':""}>
+      <div id="header-section">
+        <Header/>
+      </div>
       <div id="events-section">
          <EventsLayout/>
+      </div>
+      <div id='team-secion'>
+        <Ourteam/>
       </div>
       <div id="sponsors-section">
         <Sponsors/>
@@ -20,6 +40,8 @@ export default function Home() {
       <div id="footer-section">
         <Footer/>
       </div>
+
+      </main>
     </>
   )
 }
