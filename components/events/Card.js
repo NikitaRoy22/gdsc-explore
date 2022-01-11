@@ -1,5 +1,5 @@
 import Image from "next/image";
-import navigateicon from "../../public/images/navigateicon.png";
+import navigateicon from "../../public/images/navigateIcon.png";
 import Link from "next/link";
 
 export default function Card({ event }) {
