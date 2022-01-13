@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Ourteam from '../components/ourteam'
 import Navbar from '../components/Navbar'
+import LowerHeader from '../components/LowerHeader'
 import { useState } from 'react'
 
 
@@ -24,6 +25,9 @@ export default function Home() {
       <main className={toggle ? 'h-[80vh] overflow-hidden':""}>
       <div id="header-section">
         <Header/>
+      </div>
+      <div id='LowerHeader'>
+        <LowerHeader/>
       </div>
       <div id="events-section">
          <EventsLayout/>
