@@ -1,5 +1,8 @@
 import LogoSvg from '../public/images/logo.svg'
 import Image from 'next/image'
+import AECLOGO from '../public/images/logos/AEC.png'
+import IIITGLOGO from '../public/images/logos/IIITG.png'
+import NITALOGO from '../public/images/logos/NITA.png'
 
 
 export default function Ourteam(){

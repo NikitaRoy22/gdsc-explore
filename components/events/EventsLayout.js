@@ -32,8 +32,8 @@ export default function EventsLayout() {
               {
                 days.map((day, index) => {
                   return(
-                    <button key={index} className={btnIndex==day?"border-b-4 border-blue-500 py-3 mr-5 text-center px-3 text-paragraphColor":" py-3 mr-5 text-center px-3 text-paragraphColor"} onClick={()=>{changeCards(day)}}>
-                    <h1 className=" text-[15px] md:text-[18px]">Day {day}</h1>
+                    <button key={index} className={btnIndex==day?"border-b-4 border-blue-500 py-3 mr-5 text-center px-3  text-black font-normal":" py-3 mr-5 text-center px-3 text-paragraphColor"} onClick={()=>{changeCards(day)}}>
+                    <h1 className={btnIndex==day?"text-[15px] md:text-[18px] ":"text-[15px] md:text-[18px] hover:text-black hover:font-normal transition delay-75 ease-in-out hover:-translate-y-1"}>Day {day}</h1>
                     </button>
                   )
                 })
@@ -49,7 +49,7 @@ export default function EventsLayout() {
         </div>
 
         <div className="cards-layout">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid content-center grid-cols-1 md:grid-cols-3 gap-4 ">
             {dayevents.map((event) => {
               return <Card key={event.id} event={event} />;
             })}

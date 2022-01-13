@@ -3,7 +3,8 @@ import {AiOutlineSearch, AiOutlineArrowDown} from 'react-icons/ai'
 import { useState } from 'react'
 import LogoSvg from '../public/images/logo.svg'
 import Image from 'next/image'
-
+import Lottie from "react-lottie";
+import animationData from "../public/lottie/explore-anime.json";
 
 export default function Navbar({toggleSidebar}){
     const [toggle, setToggle] =useState(false);
@@ -17,6 +18,20 @@ export default function Navbar({toggleSidebar}){
         setToggle2(!toggleCarousel);
     }
 
+    const defaultOptions = {
+        loop: false,
+        autoplay: false,
+        animationData: animationData,
+        // rendererSettings: {
+        //   preserveAspectRatio: "xMidYMid slice",
+        // },
+      };
+
+    const [stopped, setStopped] = useState(true);
+    const handleHover = ()=>{
+        setStopped(!stopped);
+    } 
+
     return (
         <>
         <div className="container-fluid">
@@ -25,8 +40,8 @@ export default function Navbar({toggleSidebar}){
                     <div className="flex flex-row">
                         <div className="hidden md:flex w-[400px] h-[100px] flex-row justify-between" id="lp-view">
                             <div className='pt-[8px]'>
-                                <a>
-                                    <Image src={LogoSvg} height={80} width={80}/>
+                                <a onMouseEnter={handleHover} onMouseLeave={handleHover}>
+                                <Lottie options={defaultOptions} height={80} width={80} isStopped={stopped} />
                                 </a>
                             </div>
                             <div className='flex items-center active:text-blue'>

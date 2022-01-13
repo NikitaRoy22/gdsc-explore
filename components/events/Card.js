@@ -6,7 +6,7 @@ export default function Card({ event }) {
   return (
     <>
       <div
-        className="bg-offWhite p-4 rounded-[4px] border-[1px] border-borderColor"
+        className="bg-offWhite p-4 rounded-[4px] border-[1px] border-borderColor transition ease-in-out delay-75 hover:shadow-md hover:shadow-indigo-400/40"
         id="card"
       >
         <div className="grid grid-cols-2 gap-4 md:grid-cols-1">
