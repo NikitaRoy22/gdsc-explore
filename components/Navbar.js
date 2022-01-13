@@ -1,21 +1,15 @@
 import {GiHamburgerMenu} from 'react-icons/gi'
-import {AiOutlineSearch, AiOutlineArrowDown} from 'react-icons/ai'
 import { useState } from 'react'
-import LogoSvg from '../public/images/logo.svg'
 import Image from 'next/image'
 import Lottie from "react-lottie";
 import animationData from "../public/lottie/explore-anime.json";
 
 export default function Navbar({toggleSidebar}){
     const [toggle, setToggle] =useState(false);
-    const [toggleCarousel, setToggle2] =useState(false);
 
     const handleToggle = ()=>{
         setToggle(!toggle);
         toggleSidebar();
-    }
-    const handleToggleCarousel = ()=>{
-        setToggle2(!toggleCarousel);
     }
 
     const defaultOptions = {
@@ -30,67 +24,47 @@ export default function Navbar({toggleSidebar}){
     const [stopped, setStopped] = useState(true);
     const handleHover = ()=>{
         setStopped(!stopped);
-    } 
+    }
 
     return (
         <>
         <div className="container-fluid">
-            <div id="navbar" className='h-[6.8125rem] shadow-[0px_1px_1px_rgba(0,0,0,0.14),0px_2px_1px_rgba(0,0,0,0.12),0px_1px_3px_rgba(0,0,0,0.2)]'>
-                <nav className="flex justify-between items-center bg-[#3C64B1] bg-opacity-[0.06] h-[5.5rem] px-[5%] md:px-[8%] ">
-                    <div className="flex flex-row">
-                        <div className="hidden md:flex w-[400px] h-[100px] flex-row justify-between" id="lp-view">
-                            <div className='pt-[8px]'>
-                                <a onMouseEnter={handleHover} onMouseLeave={handleHover}>
-                                <Lottie options={defaultOptions} height={80} width={80} isStopped={stopped} />
-                                </a>
-                            </div>
-                            <div className='flex items-center active:text-blue'>
-                                <a href='#header-section'>Home</a>
-                            </div>
-                            <div className='flex items-center'>
-                                <a href='#events-section'>Events</a>
-                            </div>
-                            <div className='flex items-center'>
-                                <a href='#team-secion'>Teams</a>
-                            </div>
-                            <div className='flex items-center'>
-                                <a href='#sponsors-section'>Sponsors</a>
-                            </div>
-                            <div className='flex items-center'>
-                                <a href='#faq-section'>FAQ</a>
-                            </div>
-                            
+            <div className="flex justify-between items-center bg-[#3C64B1] bg-opacity-[0.06] h-[5.5rem] shadow-[0px_4px_17px_rgba(0,0,0,0.1)] px-[5%] md:px-[8%]">
+                <div className="flex flex-row items-center">
+                    <div className='pt-[8px] mb-[16px] mr-[10px]'>
+                        <a onMouseEnter={handleHover} onMouseLeave={handleHover}>
+                        <Lottie options={defaultOptions} height={80} width={80} isStopped={stopped} />
+                        </a>
+                    </div>
+                    <div className='font-[550] tracking-[0.5px]'>
+                        GDSC Explore
+                    </div>
+                </div>
+
+
+                <div className="flex">
+                    <div className="hidden md:flex w-[400px] h-[100px] flex-row justify-between" id="lp-view">  
+                        <div className='hover:text-blue-500 flex items-center'>
+                            <a href='#header-section'>Home</a>
                         </div>
-                        <div className="md:hidden flex" id="mb-view">
-                            <button className="text-black p-2 mr-[15px]" onClick={()=>{handleToggle()}}><GiHamburgerMenu/></button>
-                            <a href='' className='pt-[4px] text-[#373F41]'>GDSC Explore</a>
+                        <div className='flex items-center hover:text-blue-500'>
+                            <a href='#events-section'>Events</a>
+                        </div>
+                        <div className='hover:text-blue-500 flex items-center'>
+                            <a href='#team-secion'>Teams</a>
+                        </div>
+                        <div className='hover:text-blue-500 flex items-center'>
+                            <a href='#sponsors-section'>Sponsors</a>
+                        </div>
+                        <div className='hover:text-blue-500 flex items-center'>
+                            <a href='#speaker-section'>Speakers</a>
                         </div>
                     </div>
-
-
-                    <div className="flex">
-                        <div id="lp-view " className='hidden md:flex'>
-                            <div id='carousel' className='flex items-center mr-[15px]'>
-                                <div className='mr-[10px]'>
-                                    Asia Pacific
-                                </div>
-                                <button onClick={()=>{handleToggleCarousel()}}>
-                                    <AiOutlineArrowDown/>
-                                </button>
-                                
-
-                            </div>
-
-                            <AiOutlineSearch className='text-[#737B7D] mt-[7px] text-[27px]'/>
-                            <button className="bg-[#3C64B1] text-white px-[14px] py-[7px] ml-[20px] rounded">Log in</button>
-                        </div>
-                        <div id="mb-view" className="flex md:hidden">
-                            <AiOutlineSearch className='text-[#737B7D] mt-[7px] text-[27px]'/>
-                            <button className="bg-[#3C64B1] text-white px-[14px] py-[7px] ml-[20px] rounded">Log in</button>
-                        </div>
+                    <div className="md:hidden flex" id="mb-view">
+                        <button className="text-black p-2 mr-[0px]" onClick={()=>{handleToggle()}}><GiHamburgerMenu/></button>
                     </div>
-                </nav>
-                
+                </div>
+            </div>
 
 
 
@@ -99,8 +73,11 @@ export default function Navbar({toggleSidebar}){
                 <div className={toggle?'bg-black bg-opacity-30 absolute inset-0 z-10 ':'bg-black bg-opacity-30 absolute inset-0 z-10 hidden'} onClick={()=>{handleToggle()}}>
 
                 <div id="sidebar" className='z-20 bg-white h-full w-[66%] px-[2.2rem] py-[1.5rem]'>
-                    <div id="logo" className='flex justify-start'>
-                        <Image src={LogoSvg} height={80} width={80}/>
+                
+                    <div id='logo' className='flex justify-start'>
+                        <a onMouseEnter={handleHover} onMouseLeave={handleHover}>
+                        <Lottie options={defaultOptions} height={100} width={100} isStopped={stopped} />
+                        </a>
                     </div>
 
 
@@ -118,47 +95,17 @@ export default function Navbar({toggleSidebar}){
                             <a href='#team-secion'>Teams</a>
                         </div>
                         <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
-                            <a href='#Our-Sponsors'>Sponsors</a>
+                            <a href='#sponsors-section'>Sponsors</a>
                         </div>
                         <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
-                            <a href='#faq'>FAQ</a>
+                            <a href='#speaker-section'>Speakers</a>
                         </div>
-                    </div>
-
-                    <div className='absolute bottom-0 h-[58px] w-[54%] border-t-2 border-t-[rgba(115, 123, 125, 0.29)]' id='sidebar-footer'>
-                        Asia Pacific
                     </div>
                 </div>
 
                 </div>
                 {/* side bar */}
 
-
-
-
-                {/* Location carousel */}
-                <div className={toggleCarousel?'absolute bg-white h-[100px] w-[100px] right-[19%]':'hidden'}  onClick={()=>{handleToggleCarousel()}}>
-                    <ul>
-                        <li>
-                        Asia Pacific
-                        </li>
-                        <li>
-                        Asia Pacific
-                        </li>
-                        <li>
-                        Asia Pacific
-                        </li>
-                        <li>
-                        Asia Pacific
-                        </li>
-                    </ul>
-
-                </div>
-
-
-                {/* Location carousel */}
-
-            </div>
         </div>
         </>
     )
