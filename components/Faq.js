@@ -8,61 +8,37 @@ export default function Faq() {
                         <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
                             <details>
                                 <summary className="flex justify-between text-summary font-thin text-[#737B7D] hover:text-gray-800 hover:font-normal">How to add, edit or delete details from the profile</summary>
-<<<<<<< HEAD
                                 <p>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-=======
-                                <p className="pl-4 text-[#737B7D]">> Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
->>>>>>> parent of d8d137d (removed deploy error)
                             </details>
                         </div>
                         <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
                             <details>
                                 <summary className="flex justify-between text-summary font-thin font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How do I create a blog?</summary>
-<<<<<<< HEAD
                                 <p>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-=======
-                                <p className="pl-4 text-[#737B7D]">>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
->>>>>>> parent of d8d137d (removed deploy error)
                             </details>
                         </div>
                         <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
                             <details>
                                 <summary className="flex justify-between text-summary font-thin font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How to check any other profile?</summary>
-<<<<<<< HEAD
                                 <p>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-=======
-                                <p className="pl-4 text-[#737B7D]">>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
->>>>>>> parent of d8d137d (removed deploy error)
                             </details>
                         </div>
                         <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
                             <details>
                                 <summary className="flex justify-between text-summary font-thin font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How to view the DSC Member Page and Website Developer page?</summary>
-<<<<<<< HEAD
                                 <p>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-=======
-                                <p className="pl-4 text-[#737B7D]">>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
->>>>>>> parent of d8d137d (removed deploy error)
                             </details>
                         </div>
                         <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
                             <details>
                                 <summary className="flex justify-between text-summary font-thin font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How are views on Blogs counted</summary>
-<<<<<<< HEAD
                                 <p>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-=======
-                                <p className="pl-4 text-[#737B7D]">>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
->>>>>>> parent of d8d137d (removed deploy error)
                             </details>
                         </div>
                         <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
                             <details>
                                 <summary className="flex justify-between text-summary font-thin font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How do I login if I forgot my password?</summary>
-<<<<<<< HEAD
                                 <p>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-=======
-                                <p className="pl-4 text-[#737B7D]">>Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
->>>>>>> parent of d8d137d (removed deploy error)
                             </details>
                         </div>
                     </div>
