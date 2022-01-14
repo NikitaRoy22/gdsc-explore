@@ -1,12 +1,12 @@
 import Image from "next/image"
 import LogoSvg from '../public/images/logo.svg'
+import Fork from '../public/fork.svg'
 import mic from '../public/Ellipse.svg'
 import eve from '../public/images/cardImg1.png'
 
 export default function LowerHeader(){
     return (
         <div className="bg-[#C2C2C2] bg-opacity-[0.1] pb-[100px]"> 
-        
       
         <div className="flex justify-center">
             <div className="h-auto w-[53.875rem] text-center font-sans text-[1.75rem] font-light p-10 text-[#373F41] md:h-auto md:w-[53.875rem] md:text-center md:font-sans md:text-[2.125rem] md:font-light md:text-[#373F41] md:leading-[3rem]">

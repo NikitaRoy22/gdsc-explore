@@ -23,7 +23,7 @@ export default function Ourteam(){
                 <div className='flex flex-col w-[100%] sm:w-[50%] lg:w-[25%] mb-[2rem] md:mb-[7px]'>
                     <Image src={LogoSvg}/>
                     <div className='text-[#737B7D] text-[14.5px] text-center mt-[10px]'>Google Developer Student Clubs</div>
-                    <div className='text-[#737B7D] text-[9.39px] text-center'>National Institute Of Technology Silchar</div>
+                    <div className='text-[#737B7D] text-[9.39px] text-center'>ASSAM ENGINEERING COLLEGE</div>
                 </div>
                 <div className='flex flex-col w-[100%] sm:w-[50%] lg:w-[25%] mb-[2rem] md:mb-[7px]'>
                     <Image src={LogoSvg}/>
@@ -33,12 +33,12 @@ export default function Ourteam(){
                 <div className='flex flex-col w-[100%] sm:w-[50%] lg:w-[25%] mb-[2rem] md:mb-[7px]'>
                     <Image src={LogoSvg}/>
                     <div className='text-[#737B7D] text-[14.5px] text-center mt-[10px]'>Google Developer Student Clubs</div>
-                    <div className='text-[#737B7D] text-[9.39px] text-center'>National Institute Of Technology Silchar</div>
+                    <div className='text-[#737B7D] text-[9.39px] text-center'>National Institute Of Technology Agartala</div>
                 </div>
                 <div className='flex flex-col w-[100%] sm:w-[50%] lg:w-[25%] mb-[2rem] md:mb-[7px]'>
                     <Image src={LogoSvg}/>
                     <div className='text-[#737B7D] text-[14.5px] text-center mt-[10px]'>Google Developer Student Clubs</div>
-                    <div className='text-[#737B7D] text-[9.39px] text-center'>National Institute Of Technology Silchar</div>
+                    <div className='text-[#737B7D] text-[9.39px] text-center'>Indian Institute Of Information Technology Guwahati</div>
                 </div>
             </div>
             <br/>
