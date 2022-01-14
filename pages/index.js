@@ -15,7 +15,6 @@ export default function Home() {
   const [toggle, setToggle] = useState(false);
   const toggleSidebar = () => {
     setToggle(!toggle);
-
   }
 
   return (
@@ -36,7 +35,7 @@ export default function Home() {
       <div id='team-secion'>
         <Ourteam/>
       </div>
-      <div id="speakers-section">
+      <div id="speaker-section">
         <Speakers/>
       </div>
       <div id="sponsors-section">
