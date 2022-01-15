@@ -19,6 +19,8 @@ export default function Ourteam(){
 
                 {/* border-2 border-black */}
 
+
+
                 <div id="cards" className="flex flex-wrap justify-content mx-[4rem] md:mx-[19%] lg:mx-[15%] mt-[40px] mb-[10px]">
                     <div className='flex flex-col w-[100%] px-0 sm:w-[50%] lg:w-[25%]'>
                         <Image src={LogoSvg}/>

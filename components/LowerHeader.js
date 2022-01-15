@@ -6,7 +6,17 @@ import eve from '../public/images/cardImg1.png'
 
 export default function LowerHeader(){
     return (
-        <div className="bg-[#C2C2C2] bg-opacity-[0.1] pb-[60px] md:pb-[100px]"> 
+        <div className="bg-[#C2C2C2] bg-opacity-[0.1] pt-[70px] pb-[100px] md:pb-[120px]">
+        
+        <div id="decor1" className="absolute inline-block translate-y-[-60px]">
+            <Image src={Fork} height={150} width={110}/>
+        </div>
+        <div id="decor1" className="absolute inline-block right-[0px] translate-y-[700px] md:translate-y-[400px] rotate-[180deg]">
+            <Image src={Fork} height={150} width={110}/>
+        </div>
+
+
+
       
         <div className="flex justify-center">
             <div className="h-auto w-[53.875rem] text-center font-sans text-[1.75rem] font-light p-10 text-[#373F41] md:h-auto md:w-[53.875rem] md:text-center md:font-sans md:text-[2.125rem] md:font-light md:text-[#373F41] md:leading-[3rem]">

@@ -18,7 +18,7 @@ export default function Home() {
   }
 
   return (
-    <>
+    <div>
 
       <Navbar toggleSidebar={toggleSidebar} />
 
@@ -49,6 +49,6 @@ export default function Home() {
       </div>
 
       </main>
-    </>
+    </div>
   )
 }
