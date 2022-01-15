@@ -1,6 +1,6 @@
 
 import EventsLayout from '../components/events/EventsLayout'
-import Speakers from '../components/Speakers'
+import Speakers from '../components/speakers/Carousel'
 import Sponsors from '../components/Sponsors'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
