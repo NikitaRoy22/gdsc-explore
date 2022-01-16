@@ -11,9 +11,7 @@ export default function LowerHeader(){
         <div id="decor1" className="absolute inline-block translate-y-[-60px]">
             <Image src={Fork} height={150} width={110}/>
         </div>
-        <div id="decor1" className="absolute inline-block right-[0px] translate-y-[700px] md:translate-y-[400px] rotate-[180deg]">
-            <Image src={Fork} height={150} width={110}/>
-        </div>
+        
 
 
 
@@ -69,9 +67,12 @@ export default function LowerHeader(){
                         <div>Workshops</div>
                     </div>
                 </div>
-
-
             </div>
+
+            
+        <div id="decor2" className="absolute inline-block right-[0px] translate-y-[25.5rem] md:translate-y-[11rem] rotate-[180deg]">
+            <Image src={Fork} height={150} width={110}/>
+        </div>
         </div>
 
         
