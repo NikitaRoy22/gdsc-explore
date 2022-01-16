@@ -68,28 +68,14 @@ export default function LowerHeader(){
                     </div>
                 </div>
             </div>
+        </div>
 
             
-        <div id="decor2" className="absolute inline-block right-[0px] translate-y-[25.5rem] md:translate-y-[11rem] rotate-[180deg]">
+
+
+        <div id="decor2" className="absolute inline-block right-[0px] translate-y-[-3rem] md:translate-y-[-3rem] rotate-[180deg]">
             <Image src={Fork} height={150} width={110}/>
         </div>
-        </div>
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         </div>
     )
