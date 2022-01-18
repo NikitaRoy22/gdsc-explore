@@ -31,3 +31,17 @@ details[open] > summary::after {
     content: url(../public/arrows/down-arrow-svgrepo-com.svg);
     @apply transform rotate-180;
 }
+
+#explore{
+  
+    color: #01a050;
+}
+#enhance{
+    color: #ffc322;
+}
+#execute{
+    color: #4f9cfa;
+}
+#excel{
+    color:#fc2825
+}

@@ -7,7 +7,7 @@ return (
 	<div className="text-[3rem] text-[green] mb-[4rem]">
 	<Typewriter
         options={{
-            strings: ['Explore', 'Enhance', 'Execute', 'Excel'],
+            strings: ["<span id='explore'>Explore</span>", "<span id='enhance'>Enhance</span>", "<span id='execute'>Execute</span>" ,  "<span id='excel'>Excel</span>"],
             autoStart: true,
             loop: true,
         }}
