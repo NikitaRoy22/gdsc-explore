@@ -25,14 +25,14 @@ export default function Carousel() {
                         <div className="carousel-inner flex justify-center">
                             {activeIndex==0?
                             (
-                            <div className="carousel-item bg-gray-300 opacity-20 hidden md:block mx-2">
+                            <div className="carousel-item bg-gray-300  hidden md:block mx-2">
                                 <Card name={SpeakersData.at(-1).name} title={SpeakersData.at(-1).title} disable={true} linkedIn={SpeakersData.at(-1).linkedIn} twitter={SpeakersData.at(-1).twitter}/>
                             </div>
                             )
                             
                             :
                             (
-                                <div className="carousel-item bg-gray-300 opacity-20 hidden md:block mx-2">
+                                <div className="carousel-item bg-gray-300  hidden md:block mx-2">
                                     <Card name={SpeakersData[activeIndex-1].name} title={SpeakersData[activeIndex-1].title} disable={true} linkedIn={SpeakersData[activeIndex-1].linkedIn} twitter={SpeakersData[activeIndex-1].twitter}/>
                                 </div>
                             )}
@@ -47,14 +47,14 @@ export default function Carousel() {
                             })}
                             {activeIndex==SpeakersData.length-1?
                             (
-                            <div className="carousel-item bg-gray-300 opacity-20 hidden md:block mx-2">
+                            <div className="carousel-item bg-gray-300  hidden md:block mx-2">
                                 <Card name={SpeakersData[0].name} title={SpeakersData[0].title} disable={true} linkedIn={SpeakersData[0].linkedIn} twitter={SpeakersData[0].twitter}/>
                             </div>
                             )
                             
                             :
                             (
-                                <div className="carousel-item bg-gray-300 opacity-20 hidden md:block mx-2">
+                                <div className="carousel-item bg-gray-300  hidden md:block mx-2">
                                     <Card name={SpeakersData[activeIndex+1].name} title={SpeakersData[activeIndex+1].title} disable={true} linkedIn={SpeakersData[activeIndex+1].linkedIn} twitter={SpeakersData[activeIndex+1].twitter}/>
                                 </div>
                             )}
