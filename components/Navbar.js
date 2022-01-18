@@ -28,8 +28,8 @@ export default function Navbar({toggleSidebar}){
 
     return (
         <>
-        <div className="container-fluid">
-            <div className="flex justify-between items-center bg-[#3C64B1] bg-opacity-[0.06] h-[5.5rem] shadow-[0px_4px_17px_rgba(0,0,0,0.1)] px-[5%] md:px-[8%]">
+        <div className="sticky top-[0px] z-[1000] container-fluid">
+            <div className="flex justify-between items-center bg-[rgba(205,235,255,0.3)] backdrop-blur-[12px] h-[5.5rem] shadow-[0px_4px_17px_rgba(0,0,0,0.1)] px-[5%] md:px-[8%]">
                 <div className="flex flex-row items-center">
                     <div className='pt-[8px] mb-[16px] mr-[10px]'>
                         <a onMouseEnter={handleHover} onMouseLeave={handleHover}>
@@ -69,42 +69,42 @@ export default function Navbar({toggleSidebar}){
 
 
 
-                {/* side bar */}
-                <div className={toggle?'bg-black bg-opacity-30 absolute inset-0 z-10 ':'bg-black bg-opacity-30 absolute inset-0 z-10 hidden'} onClick={()=>{handleToggle()}}>
+            {/* side bar */}
+            <div className={toggle?'bg-black bg-opacity-30 absolute inset-0 z-10 ':'bg-black bg-opacity-30 absolute inset-0 z-10 hidden'} onClick={()=>{handleToggle()}}>
 
-                <div id="sidebar" className='z-20 bg-white h-full w-[66%] px-[2.2rem] py-[1.5rem]'>
-                
-                    <div id='logo' className='flex justify-start'>
-                        <a onMouseEnter={handleHover} onMouseLeave={handleHover}>
-                        <Lottie options={defaultOptions} height={100} width={100} isStopped={stopped} />
-                        </a>
-                    </div>
-
-
-
-
-
-                    <div className='p-3' id="nav-links">
-                        <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
-                            <a href='#header-section'>Home</a>
-                        </div>
-                        <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
-                            <a href='#events-section'>Events</a>
-                        </div>
-                        <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
-                            <a href='#team-secion'>Teams</a>
-                        </div>
-                        <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
-                            <a href='#sponsors-section'>Sponsors</a>
-                        </div>
-                        <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
-                            <a href='#speaker-section'>Speakers</a>
-                        </div>
-                    </div>
+            <div id="sidebar" className='z-20 bg-white h-full w-[66%] px-[2.2rem] py-[1.5rem]'>
+            
+                <div id='logo' className='flex justify-start'>
+                    <a onMouseEnter={handleHover} onMouseLeave={handleHover}>
+                    <Lottie options={defaultOptions} height={100} width={100} isStopped={stopped} />
+                    </a>
                 </div>
 
+
+
+
+
+                <div className='p-3' id="nav-links">
+                    <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
+                        <a href='#header-section'>Home</a>
+                    </div>
+                    <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
+                        <a href='#events-section'>Events</a>
+                    </div>
+                    <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
+                        <a href='#team-secion'>Teams</a>
+                    </div>
+                    <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
+                        <a href='#sponsors-section'>Sponsors</a>
+                    </div>
+                    <div className='flex items-center px-[8px] h-[58px] border-b-2 border-[rgba(115, 123, 125, 0.29)]'>
+                        <a href='#speaker-section'>Speakers</a>
+                    </div>
                 </div>
-                {/* side bar */}
+            </div>
+
+            </div>
+            {/* side bar */}
 
         </div>
         </>

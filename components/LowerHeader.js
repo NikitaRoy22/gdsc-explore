@@ -1,6 +1,7 @@
 import Image from "next/image"
 import LogoSvg from '../public/images/logo.svg'
 import Fork from '../public/fork.svg'
+import Icon2 from '../public/icon2.svg'
 import mic from '../public/Ellipse.svg'
 import eve from '../public/images/cardImg1.png'
 
@@ -41,7 +42,7 @@ export default function LowerHeader(){
 
                     <div className="rounded-[12px] w-[165px] mb-[30px] md:mb-[0px] flex flex-col items-center py-[30px] bg-[rgba(255,255,255,0.4)] shadow-[4px_4px_40px_rgba(145,145,145,0.11)]">
                         <div className="rounded-[50%] overflow-hidden">
-                            <Image src={LogoSvg} height={100} width={100}/>
+                            <Image src={Icon2} height={90} width={70}/>
                         </div>
                         <div>4</div>
                         <div>
