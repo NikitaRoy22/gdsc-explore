@@ -43,7 +43,7 @@ export default function Header() {
                 Register Now
               </button>
               <a href="#">
-                <button className="ease-in-out duration-300 hover:text-white hover:bg-[#1B4996] border-2 border-[#1B4996] text-base md:text-lg text-[#1B4996] rounded py-2 px-3">
+                <button className="ease-in-out duration-300 hover:text-white hover:bg-[#3C64B1] border-2 border-[#1B4996] text-base md:text-lg text-[#1B4996] rounded py-2 px-3">
                   Download Brochure
                 </button>
               </a>
