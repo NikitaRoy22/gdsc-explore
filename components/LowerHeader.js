@@ -4,6 +4,7 @@ import Fork from '../public/fork.svg'
 import Icon2 from '../public/icon2.svg'
 import mic from '../public/Ellipse.svg'
 import eve from '../public/images/cardImg1.png'
+import AnimationText from '../components/AnimationText'
 
 export default function LowerHeader(){
     return (
@@ -18,13 +19,8 @@ export default function LowerHeader(){
 
       
         <div className="flex justify-center">
-            <div className="h-auto w-[53.875rem] text-center font-sans text-[1.75rem] font-light p-10 text-[#373F41] md:h-auto md:w-[53.875rem] md:text-center md:font-sans md:text-[2.125rem] md:font-light md:text-[#373F41] md:leading-[3rem]">
-            Lorem ipsum dolor sit <span className="text-[#4285F4]">amet</span>,
-            consectetur adipiscing elit. <br /> Enim nec{" "}
-            <span className="text-[#EA4335]">tempus faucibus</span> volutpat enim
-            a. <span className="text-[#FBBC05]">Tempor</span>, a{" "}
-            <span className="text-[#34A853]">elementum</span> et, urna turpis
-            congue
+            <div className="">
+                <AnimationText/>
             </div>
         </div>
 

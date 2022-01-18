@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Lottie from "react-lottie";
 import animationData from "../public/lottie/explore-anime.json";
 
+
 export default function Navbar({toggleSidebar}){
     const [toggle, setToggle] =useState(false);
 
