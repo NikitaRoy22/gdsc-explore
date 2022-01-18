@@ -20,7 +20,7 @@ export default function Header() {
             <h1 className="text-[2rem] font-medium md:text-[3.75rem]">
               GDSC Explore
             </h1>
-            <h1 className=" text-[1.1rem] text-[#373F41] md:font-normal  md:text-[2rem] md:text-[#373F41]">
+            <h1 className=" text-[1.1rem] text-[#373F41] md:font-normal  md:text-[1.875rem] md:text-[#373F41]">
               Explore the Developers from the North-East
             </h1>
             <div className="flex justify-start items-center mt-8 md:mt-4">
