@@ -4,7 +4,7 @@ import Speakers from '../components/speakers/Carousel'
 import Sponsors from '../components/Sponsors'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import NewHeader from '../components/NewHeader'
 import Ourteam from '../components/ourteam'
 import Navbar from '../components/Navbar'
 import LowerHeader from '../components/LowerHeader'
@@ -24,7 +24,7 @@ export default function Home() {
 
       <main className={toggle ? 'h-[80vh] overflow-hidden':""}>
       <div id="header-section">
-        <Header/>
+        <NewHeader/>
       </div>
       <div id='LowerHeader'>
         <LowerHeader/>
