@@ -31,7 +31,7 @@ export default function Header() {
             </div>
 
             <p className="text-[#737B7D] md:text-xl md:text-[#737B7D] mt-4">
-              GDSC Explore is the largest developers' fest in the North Eastern
+              GDSC Explore is the largest developers &#39; fest in the North Eastern
               India, brought to you by GDSC AEC, GDSC NIT Silchar, GDSC IIIT
               Guwahati, GDSC NIT Agartala. It will provide a platform for
               developers to engage and learn by participating in various
