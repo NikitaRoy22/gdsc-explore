@@ -7,38 +7,14 @@ export default function Faq() {
                     <div className="space-y-2">
                         <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
                             <details>
-                                <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How to add, edit or delete details from the profile</summary>
-                                <p className="pl-4 text-[#737B7D]">Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
+                                <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">Do I have to pay to take part in GDSC Explore?</summary>
+                                <p className="pt-2 text-[#737B7D]">No. All the events organized by GDSC Explore are free to participate in. So hop in.</p>
                             </details>
                         </div>
                         <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
                             <details>
-                                <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How do I create a blog?</summary>
-                                <p className="pl-4 text-[#737B7D]">Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-                            </details>
-                        </div>
-                        <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
-                            <details>
-                                <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How to check any other profile?</summary>
-                                <p className="pl-4 text-[#737B7D]">Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-                            </details>
-                        </div>
-                        <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
-                            <details>
-                                <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How to view the DSC Member Page and Website Developer page?</summary>
-                                <p className="pl-4 text-[#737B7D]">Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-                            </details>
-                        </div>
-                        <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
-                            <details>
-                                <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How are views on Blogs counted</summary>
-                                <p className="pl-4 text-[#737B7D]">Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
-                            </details>
-                        </div>
-                        <div className="m=0 p-5 bg-[#F9F9F9] sm:rounded-lg rounded-none">
-                            <details>
-                                <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">How do I login if I forgot my password?</summary>
-                                <p className="pl-4 text-[#737B7D]">Magna est laborum ullamco in sit occaecat aliquip est cillum exercitation est cillum eiusmod nulla.</p>
+                                <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">Do I have to register for each event individually?</summary>
+                                <p className="pt-2 text-[#737B7D]">Yes. Interested students need to register for each event individually from the event cards to account for their presence by the platform.</p>
                             </details>
                         </div>
                     </div>
