@@ -7,9 +7,9 @@ export const SpeakersData =[
 
     },
     {
-        name:"John Doe",
-        title:"Google Developer",
-        linkedIn: "https://www.linkedin.com/in/shayan-debroy/",
+        name:"Nikita Gandhi",
+        title:"Keynote speaker",
+        linkedIn: "https://www.linkedin.com/in/nikita-gandhi01/",
         twitter: "https//twitter.com/",
     },
     {
