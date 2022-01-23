@@ -8,7 +8,7 @@ export const SpeakersData =[
     },
     {
         name:"Nikita Gandhi",
-        title:"Keynote speaker",
+        title:"Community Manager at Google Developers",
         linkedIn: "https://www.linkedin.com/in/nikita-gandhi01/",
         twitter: "https//twitter.com/",
     },
@@ -19,9 +19,9 @@ export const SpeakersData =[
         twitter: "https//twitter.com/",
     },
     {
-        name:"Another Human",
-        title:"GDSC Member",
-        linkedIn: "https://www.linkedin.com/in/shayan-debroy/",
+        name:"Usha Rengaraju",
+        title:"Data Scientist",
+        linkedIn: "https://www.linkedin.com/in/usha-rengaraju-b570b7a2/",
         twitter: "https//twitter.com/",
     },
     {

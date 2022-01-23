@@ -8,13 +8,13 @@ export default function Faq() {
                         <div className="m=0 p-5 bg-[#f3f3f3] sm:rounded-lg rounded-none">
                             <details>
                                 <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">Do I have to pay to take part in GDSC Explore?</summary>
-                                <p className="pt-2 text-[#737B7D]">No. All the events organized by GDSC Explore are free to participate in. So hop in.</p>
+                                <p className="pt-2 font-normal text-[#737B7D]">No. All the events organized by GDSC Explore are free to participate in. So hop in.</p>
                             </details>
                         </div>
                         <div className="m=0 p-5 bg-[#F3F3F3] sm:rounded-lg rounded-none">
                             <details>
                                 <summary className="flex justify-between text-summary font-normal text-[#737B7D] hover:text-gray-800 hover:font-normal">Do I have to register for each event individually?</summary>
-                                <p className="pt-2 text-[#737B7D]">Yes. Interested students need to register for each event individually from the event cards to account for their presence by the platform.</p>
+                                <p className="pt-2 font-normal text-[#737B7D]">Yes. Interested students need to register for each event individually from the event cards to account for their presence by the platform.</p>
                             </details>
                         </div>
                     </div>

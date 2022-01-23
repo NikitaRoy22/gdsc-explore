@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
                 <div className='hidden md:flex md:relative border-[1px] bg-black border-black h-[15rem] left-[15rem] top-[-16rem]'></div>
             </div>
-            <div className='relative flex flex-col items-center top-[-24rem] md:relative md:flex-col md:items-center md:w-1/2 md:left-[30rem] md:top-[-43rem]'>
+            <div className='relative flex flex-col items-center top-[-24rem] md:relative md:flex-col md:items-center md:w-1/2 md:left-[30rem] md:top-[-38rem]'>
             <div className='text-[32px]'>
                 Contact Us
             </div>
